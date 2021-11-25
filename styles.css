@@ -1,41 +1,49 @@
-body {
-    background-color: #1F2937;
-    margin: 0;
+.wrapper {
+
 }
-.white-text {
-    color: #f9faf8;
-}
-li a, .welcome p {
-    color: #e5e7eb;
-}
-.blue-back {
-    background-color: #3882f6;
-}
-.card {
-    border: 2px solid #3882f6;
-    border-radius: 10px;
+.hero {
+    background-color: #1f2937;
 }
 .info {
-    background-color: #ffffff;
-}
-.info h2 {
-    font-size: 36px;
-    font-weight: 800;
-    color: #1f2937;
+
 }
 .quote {
     background-color: #e5e7eb;
+}
+.action {
+    background-color: #3882f6;
+}
+.footer {
+    background-color: #1f2937;
+}
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header a {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.welcome-left h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.welcome-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+button {
+    background-color: #3882f6;
+}
+.info h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+.quote .text {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
     color: #1f2937;
 }
-.footer {
-    color: #ffffff;
-}
-.signature {
-    font-weight: bold;
-    font-style: normal;
-}
-
-
