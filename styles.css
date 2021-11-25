@@ -12,11 +12,16 @@ body {
 .hero {
     background-color: #1f2937;
     padding: 15px 15% 150px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .info {
     padding: 30px 15%;
     text-align: center;
-
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .quote {
     background-color: #e5e7eb;
@@ -24,6 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
 }
 .action {
     background-color: #3882f6;
@@ -35,6 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 .footer {
     background-color: #1f2937;
@@ -42,10 +49,12 @@ body {
     padding: 50px;
     color: #ffffff;
     font-size: 18px;
+    flex: 1;
 }
 .header {
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 .header .logo {
     font-size: 24px;
@@ -70,13 +79,20 @@ body {
     padding: 50px 0 0 0;
     display: flex;
     justify-content: space-between;
+    gap: 100px;
+    flex: 1;
 }
 .welcome-left, .welcome-right {
+    flex: 1;
 }
 .welcome-left {
     width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .welcome-right {
+    flex: 1;
     width: 500px;
 }
 .welcome-left h1 {
@@ -95,7 +111,7 @@ body {
     box-sizing: border-box;
     background-color: grey;
     width: 100%;
-    height: calc(100% - 32px);
+    height: 300px;
 
 }
 button {
@@ -114,17 +130,20 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .card {
+    flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .card div {
     width: 200px;
-    height: 200px;
+    min-height: 200px;
     border: 8px solid #3882f6;
     border-radius: 15px;
+    flex: 1 0;
 }
 .card p {
     width: 200px;
@@ -141,13 +160,22 @@ button {
     font-weight: 300;
     color: #1f2937;
     margin-top: 100px;
+    flex: 1;
 }
 .quote .signature {
     font-size: 18px;
     font-weight: 800;
     text-align: end;
+    flex: 1;
 }
 .action button {
     border: 1px solid #ffffff;
     border-radius: 5px;
+}
+.action div {
+    flex: 1;
+}
+.action .button {
+    display: flex;
+    justify-content: flex-end;
 }
