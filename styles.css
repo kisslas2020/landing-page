@@ -38,6 +38,10 @@ body {
 }
 .footer {
     background-color: #1f2937;
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+    font-size: 18px;
 }
 .header {
     display: flex;
