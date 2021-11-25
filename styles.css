@@ -27,6 +27,14 @@ body {
 }
 .action {
     background-color: #3882f6;
+    margin: 200px;
+    padding: 50px 200px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer {
     background-color: #1f2937;
@@ -134,4 +142,8 @@ button {
     font-size: 18px;
     font-weight: 800;
     text-align: end;
+}
+.action button {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
 }
