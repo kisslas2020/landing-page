@@ -1,8 +1,8 @@
 body {
-
 }
 .wrapper {
-    width: 60vw;
+    min-height: 100vh;
+    width: 80vw;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -33,14 +33,15 @@ body {
 }
 .action {
     background-color: #3882f6;
-    margin: 200px;
-    padding: 50px 200px;
+    margin: 10vw;
+    padding: 50px;
     border-radius: 10px;
     color: #ffffff;
     font-size: 18px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     flex: 1;
 }
 .footer {
@@ -80,6 +81,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 100px;
+    flex-wrap: wrap;
     flex: 1;
 }
 .welcome-left, .welcome-right {
@@ -92,8 +94,8 @@ body {
     justify-content: space-between;
 }
 .welcome-right {
+    min-width: 300px;
     flex: 1;
-    width: 500px;
 }
 .welcome-left h1 {
     color: #f9faf8;
@@ -111,7 +113,8 @@ body {
     box-sizing: border-box;
     background-color: grey;
     width: 100%;
-    height: 300px;
+    height: auto;
+    flex: 1;
 
 }
 button {
@@ -144,6 +147,14 @@ button {
     border: 8px solid #3882f6;
     border-radius: 15px;
     flex: 1 0;
+    display: flex;
+    align-items: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
 }
 .card p {
     width: 200px;
@@ -151,8 +162,8 @@ button {
     margin: 10px 5px;
 }
 .quote p {
-    width: 830px;
     margin: 0;
+    flex: 1;
 }
 .quote .text {
     font-size: 36px;
@@ -160,19 +171,18 @@ button {
     font-weight: 300;
     color: #1f2937;
     margin-top: 100px;
-    flex: 1;
 }
 .quote .signature {
     font-size: 18px;
     font-weight: 800;
-    text-align: end;
-    flex: 1;
+    align-self: flex-end;
 }
 .action button {
     border: 1px solid #ffffff;
     border-radius: 5px;
 }
 .action div {
+    min-width: 200px;
     flex: 1;
 }
 .action .button {
